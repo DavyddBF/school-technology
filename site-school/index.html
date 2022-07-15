@@ -1,19 +1,49 @@
 <!DOCTYPE html>
 
-<!-- Projeto html. Lembrando para os programadores que este não será o estilo final do site, mas sim apenas a ideia apresentada de modo super simples. Sou apenas programador junior e tenho muito à evoluir!! -->
-
-<html lang="pt-br">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        
         <title>Maria Corrêa SAAD</title>
-        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/jpg" href="logo-saad-titulo">
     </head>
 
     <body>
-        
+        <header>
+            <a href="#" class="logo"><img class="logo-saad" src="logo-saad.jpg" alt="Logo escola Maria Correia Saad"></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="stars.png" id="stars">
+            <img src="moon.png" id="moon">
+            <img src="mountains_behind.png" id="mountains_behind">
+            <h2 id="text">Moon Light</h2>
+            <a href="#sec" id="btn">Explorar</a>
+            <img src="mountains_front.png" id="mountains_front">
+        </section>
+        <div class="sec" id="sec">
+            <h2>Sobre a Escola</h2>
+            <br>
+            <p>A instituição privada de educação básica EEB MARIA CORREA SAAD fica no bairro de CAMPO DUNA , em Garopaba ( SC ), e oferece aulas de Ensino fundamental I, Ensino fundamental II, Ensino médio .</p>
+            <br><br>
+            <h2>Qual a estrutura do Eeb Maria Correa Saad?</h2>
+            <br>
+            <p>O Eeb Maria Correa Saad oferece toda a estrutura necessária para o conforto e desenvolvimento educacional dos seus alunos, como por exemplo: Internet, Banda Larga, Reciclagem de Lixo, Laboratório de Informática e Alimentação.</p>
+            
+            <br><br>
+
+            <h2>Localização da SAAD</h2>
+
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1479.7815817139012!2d-48.674007949041425!3d-28.09976705562742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cda1f797cf95%3A0x2489044ca1aeb6c6!2sEeb%20Maria%20Corr%C3%AAa%20Saad!5e0!3m2!1spt-BR!2sbr!4v1657853226878!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+
     </body>
 </html>
